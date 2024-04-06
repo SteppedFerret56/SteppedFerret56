@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'GidoleFont';
-    src: url(src/GidoleFont/Gidole-Regular.ttf) format('truetype');
+    src: url(/src/GidoleFont/Gidole-Regular.ttf) format('truetype');
 }
 
 body {
@@ -13,7 +13,7 @@ a {
 }
 
 .parallaxHome {
-    background-image: url("/SteppedFerret56/src/Images/homeImg.jpg");
+    background-image: url("/src/Images/homeImg.jpg");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
