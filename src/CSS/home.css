@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+.material-symbols-outlined {
+    font-size: 50px;
+}
+
 .parallaxHome {
     background-image: url("/src/Images/homeImg.jpg");
     height: 80vh;
@@ -113,6 +117,24 @@ a {
     text-align: center;
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+.projectLinks {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projectLink {
+    color: black;
+    margin: 1vw;
+}
+
+.projectLink img, .projectRepoLink img {
+    width: 50px; /* Adjust this value to resize the icons */
+    height: 50px; /* Adjust this value to resize the icons */
 }
 
 .myStory {
