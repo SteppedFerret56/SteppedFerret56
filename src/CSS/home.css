@@ -42,8 +42,7 @@ a {
     text-align: center;
 }
 
-.myValues {
-    background: rgb(2,0,36);
+.aboutMe {
     background: #2a2c2b;
     display: flex;
     align-items: center;
@@ -51,15 +50,15 @@ a {
     flex-direction: column;
 }
 
-.myValuesTitle {
+.aboutMeTitle {
     font-family: GidoleFont;
     font-size: 9vh;
     color: white;
 }
 
-.myValuesText {
+.aboutMeText {
     font-family: GidoleFont;
-    font-size: 5vh;
+    font-size: 4vh;
     color: white;
     text-align: center;
     padding-left: 5vw;
@@ -120,7 +119,7 @@ a {
 }
 
 .projectLinks {
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,27 +134,4 @@ a {
 .projectLink img, .projectRepoLink img {
     width: 50px; /* Adjust this value to resize the icons */
     height: 50px; /* Adjust this value to resize the icons */
-}
-
-.myStory {
-    background: #2a2c2b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.myStoryTitle {
-    font-family: GidoleFont;
-    font-size: 9vh;
-    color: white;
-}
-
-.myStoryText {
-    font-family: GidoleFont;
-    font-size: 4vh;
-    color: white;
-    text-align: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
