@@ -6,9 +6,20 @@
     <title>I'm Flynn Berta</title>
     <script src="src/js/global.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="src/CSS/global.css" rel="stylesheet" type="text/css">
     <link href="src/CSS/home.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div class="menuBar">
+        <h2 class="localTime">My local time</h2>
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
+            <a href="/">Home</a>
+            <a href="/mini-projects">Mini Projects</a>
+            <a href="https://avianav.flynnberta.com">AviaNav</a>
+        </div>
+    </div>
     <div class="parallaxHome">
         <div class="parallaxContent">
             <h1 class="parallaxText">Hi!</h1>
@@ -16,7 +27,7 @@
         </div>
     </div>
     <div class="aboutMe">
-        <h2 class="aboutMeTitle">My Goals</h2>
+        <h2 class="aboutMeTitle">About me</h2>
         <h3 class="aboutMeText">I'm Flynn, an aspiring programmer who is planning on studying in computing and
             working on my programming skills. I wish to work on many exciting and innovative projects
             throughout my time as a programmer. In my free time I enjoy working on my home lab (I

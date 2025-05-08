@@ -1,0 +1,52 @@
+.material-symbols-outlined {
+    font-size: 50px;
+}
+
+.parallaxHome {
+    background-image: url('/src/Images/mini-projects-img.jpg');
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallaxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parallaxText {
+    color: white;
+    font-size: 10vh;
+    font-family: GidoleFont;
+    text-align: center;
+}
+
+.aboutMe {
+    background: #2a2c2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutMeTitle {
+    font-family: GidoleFont;
+    font-size: 9vh;
+    color: white;
+}
+
+.aboutMeText {
+    font-family: GidoleFont;
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
