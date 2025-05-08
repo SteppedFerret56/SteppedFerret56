@@ -1,4 +1,4 @@
-function openNavmenu() {
+function openNavMenu() {
     document.querySelector(".sideNavContainer").style.width = "100%";
 }
 
