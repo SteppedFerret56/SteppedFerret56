@@ -3,77 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I'm Flynn Berta</title>
+    <title>Hello!</title>
     <script src="src/js/global.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link href="src/CSS/global.css" rel="stylesheet" type="text/css">
     <link href="src/CSS/home.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="menuBar">
+    <header class="menuBar">
         <h2 class="localTime">My local time</h2>
         <span onclick="openNavMenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
-        <div class="sideNavContainer">
+        <nav>
             <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
             <a href="/">Home</a>
             <a href="/mini-projects">Mini Projects</a>
             <a href="https://avianav.flynnberta.com">AviaNav</a>
-        </div>
-    </div>
-    <div class="parallaxHome">
-        <div class="parallaxContent">
-            <h1 class="parallaxText">Hi!</h1>
-            <h1 class="parallaxText">I'm Flynn Berta</h1>
-        </div>
-    </div>
-    <div class="aboutMe">
-        <h2 class="aboutMeTitle">About me</h2>
-        <h3 class="aboutMeText">I'm Flynn, an aspiring programmer who is planning on studying in computing and
-            working on my programming skills. I wish to work on many exciting and innovative projects
-            throughout my time as a programmer. In my free time I enjoy working on my home lab (I
-            somehow manage to break more things than I actually fix) and playing computer games.</h3>
-    </div>
-    <div class="myProjects">
-        <h2 class="myProjectsTitle">My Projects</h2>
-        <div class="myProjectsContent">
-            <div class="myProjectBlock">
-                <h2 class="projectTitle">Fegal Government Website</h2>
-                <h3 class="projectDescription">Please note that this is a website for a fictional country on a Minecraft server. I
-                made it to inform people of various minecraft projects I am working on, as well as services my country offers.</h3>
-                <div class="projectLinks">
-                    <a class="projectRepoLink" href="https://github.com/SteppedFerret56/Fegal-Web">
-                        <img src="src/Icons/github-logo.svg">
-                    </a>
-                    <a class="projectLink" href="https://fegal.aircs.racing/">
+        </nav>
+    </header>
+    <main>
+        <section class="parallaxHome">
+            <div class="parallaxContent">
+                <h1 class="parallaxText">Hi!</h1>
+                <h1 class="parallaxText">I'm Flynn Berta</h1>
+            </div>
+        </section>
+        <section class="aboutMe">
+            <h2 class="aboutMeTitle">About me</h2>
+            <h3 class="aboutMeText">I'm Flynn, an aspiring programmer who is planning on studying in computing and
+                working on my programming skills. I wish to work on many exciting and innovative projects
+                throughout my time as a programmer. In my free time I enjoy working on my home lab (I
+                somehow manage to break more things than I actually fix) and playing computer games.</h3>
+        </section>
+        <section class="myProjects">
+            <h2 class="myProjectsTitle">My Projects</h2>
+            <div class="myProjectsContent">
+                <div class="myProjectBlock">
+                    <h2 class="projectTitle">Fegal Government Website</h2>
+                    <h3 class="projectDescription">Please note that this is a website for a fictional country on a Minecraft server. I
+                        made it to inform people of various minecraft projects I am working on, as well as services my country offers.</h3>
+                    <div class="projectLinks">
+                        <a class="projectRepoLink" href="https://github.com/SteppedFerret56/Fegal-Web">
+                            <img src="src/Icons/github-logo.svg">
+                        </a>
+                        <a class="projectLink" href="https://fegal.aircs.racing/">
                         <span class="material-symbols-outlined">
                             public
                         </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="myProjectBlock">
-                <h2 class="projectTitle">AviaNav</h2>
-                <h3 class="projectDescription">AviaNav is still a very early days project. I began work on it as I found it annoying
-                that I had to use several different websites to access all sorts of data for flight simulation. This data includes;
-                weather radar, aircraft radar, airport weather information, and flight planning. While I still have not implemented
-                a majority of these features my end goal is to have all of them.</h3>
-                <div class="projectLinks">
-                    <a class="projectRepoLink" href="https://github.com/SteppedFerret56/AviaNav">
-                        <img src="src/Icons/github-logo.svg">
-                    </a>
-                    <a class="projectLink" href="https://avianav.flynnberta.com/">
+                <div class="myProjectBlock">
+                    <h2 class="projectTitle">AviaNav</h2>
+                    <h3 class="projectDescription">AviaNav is still a very early days project. I began work on it as I found it annoying
+                        that I had to use several different websites to access all sorts of data for flight simulation. This data includes;
+                        weather radar, aircraft radar, airport weather information, and flight planning. While I still have not implemented
+                        a majority of these features my end goal is to have all of them.</h3>
+                    <div class="projectLinks">
+                        <a class="projectRepoLink" href="https://github.com/SteppedFerret56/AviaNav">
+                            <img src="src/Icons/github-logo.svg">
+                        </a>
+                        <a class="projectLink" href="https://avianav.flynnberta.com/">
                         <span class="material-symbols-outlined">
                             public
                         </span>
-                    </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="myProjectBlock">
+                    <h2 class="projectTitle">Harmonic Ferret</h2>
+                    <h3 class="projectDescription">Harmonic Ferret is something I want to make, and have already created a GitHub repo for,
+                        but have not started yet. Therefor no link has been provided.</h3>
                 </div>
             </div>
-            <div class="myProjectBlock">
-                <h2 class="projectTitle">Harmonic Ferret</h2>
-                <h3 class="projectDescription">Harmonic Ferret is something I want to make, and have already created a GitHub repo for,
-                but have not started yet. Therefor no link has been provided.</h3>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
