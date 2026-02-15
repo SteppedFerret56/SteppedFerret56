@@ -16,14 +16,23 @@ document.addEventListener('click', function(event) {
     }
 });
 
-function Time() {
-    const utcTimeText = document.querySelector('.localTime');
-    let utcString = new Date().toLocaleTimeString('en-AU', {
+async function Time() {
+    const timeText = document.querySelector('.localTime');
+    if (!timeText) return;
+
+    const res = await fetch("https://timeapi.io/api/TimeZone/zone?timeZone=Etc/GMT-8");
+    const data = await res.json();
+
+    const date = new Date(data.currentLocalTime);
+
+    const formatted = date.toLocaleTimeString('en-AU', {
         hour: '2-digit',
         minute: '2-digit',
-        second: '2-digit',
+        second: '2-digit'
     });
-    utcTimeText.textContent = `My local time: ${utcString}`;
+
+    timeText.textContent = `My Local Time: ${formatted}`;
 }
 
 setInterval(Time, 1000);
+Time();
