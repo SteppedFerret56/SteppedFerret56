@@ -10,21 +10,23 @@
     <link href="../src/CSS/mini-projects.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="menuBar">
+    <header class="menuBar">
         <h2 class="localTime">My local time</h2>
         <span onclick="openNavMenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
-        <div class="sideNavContainer">
+        <nav>
             <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
             <a href="/">Home</a>
             <a href="/mini-projects">Mini Projects</a>
             <a href="https://avianav.flynnberta.com">AviaNav</a>
-        </div>
-    </div>
-    <div class="parallaxHome">
-        <div class="parallaxContent">
-            <h1 class="parallaxText">Welcome to mini projects!</h1>
-            <h1 class="parallaxText">Coming soon</h1>
-        </div>
-    </div>
+        </nav>
+    </header>
+    <main>
+        <section class="parallaxHome">
+            <div class="parallaxContent">
+                <h1 class="parallaxText">Welcome to mini projects!</h1>
+                <h1 class="parallaxText">Coming soon</h1>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

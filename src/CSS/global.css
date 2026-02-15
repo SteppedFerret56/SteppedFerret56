@@ -37,7 +37,7 @@ a {
     padding: 15px;
 }
 
-.sideNavContainer {
+nav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -52,7 +52,7 @@ a {
     text-align: center;
 }
 
-.sideNavContainer a {
+nav a {
     padding: 10px 15px 10px 30px;
     text-decoration: none;
     font-size: 5vh;
@@ -62,14 +62,14 @@ a {
     transition: 0.3s;
 }
 
-.sideNavContainer a:hover {
+nav a:hover {
     color: #2a2c2b;
     -webkit-background-clip: text;
     background-clip: text;
     transition: 0.3s;
 }
 
-.sideNavContainer .sideNavCloseBtn {
+nav .sideNavCloseBtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -78,6 +78,6 @@ a {
 }
 
 @media screen and (max-height: 450px) {
-    .sideNavContainer {padding-top: 15px;}
-    .sideNavContainer a {font-size: 18px;}
+    nav {padding-top: 15px;}
+    nav a {font-size: 18px;}
 }
