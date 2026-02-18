@@ -3,7 +3,7 @@
 }
 
 .parallaxHome {
-    background-image: url('/src/Images/homeImg.jpg');
+    background-image: url('/src/Images/home-img.jpg');
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -24,7 +24,6 @@
 .parallaxText {
     color: white;
     font-size: 10vh;
-    font-family: GidoleFont;
     text-align: center;
 }
 
@@ -37,87 +36,14 @@
 }
 
 .aboutMeTitle {
-    font-family: GidoleFont;
     font-size: 9vh;
     color: white;
 }
 
 .aboutMeText {
-    font-family: GidoleFont;
     font-size: 4vh;
     color: white;
     text-align: center;
     padding-left: 5vw;
     padding-right: 5vw;
-}
-
-.myProjects {
-    background: #2a2c2b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.myProjectsTitle {
-    font-family: GidoleFont;
-    font-size: 9vh;
-    background: linear-gradient(to right, #f0c755, #e1c34e, #d2bf49, #c3ba44, #b4b640, #a5b13d, #96ac3a, #88a738, #79a237, #6b9d37, #5d9737, #4e9237, #3e8c37, #2d8638, #168039);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.myProjectsContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.myProjectBlock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2vw;
-    padding: 2vw;
-    background: white;
-    border-radius: 10px;
-}
-
-.projectTitle {
-    font-family: GidoleFont;
-    font-size: 6vh;
-    background: linear-gradient(to right, #04bfbf, #07adb0, #099aa1, #0a8992, #0a7784, #096676, #075668, #05465a, #03374d, #012840);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.projectDescription {
-    font-family: GidoleFont;
-    font-size: 4vh;
-    color: black;
-    text-align: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-.projectLinks {
-    width: 30vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-.projectLink {
-    color: black;
-    margin: 1vw;
-}
-
-.projectLink img, .projectRepoLink img {
-    width: 50px;
-    height: 50px;
 }

@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello!</title>
+    <title>Flynn Berta Portfolio</title>
     <script src="src/js/global.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link href="src/CSS/global.css" rel="stylesheet" type="text/css">
-    <link href="src/CSS/home.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../src/CSS/global.css" type="text/css">
+    <link rel="stylesheet" href="src/CSS/home.css" type="text/css">
 </head>
 <body>
     <header class="menuBar">
-        <h2 class="localTime">My local time</h2>
+        <h2 class="localTime">My Local Time</h2>
         <span onclick="openNavMenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
         <nav>
             <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
             <a href="/">Home</a>
             <a href="/mini-projects">Mini Projects</a>
+            <a href="/gallery/">Gallery</a>
             <a href="https://avianav.flynnberta.com">AviaNav</a>
         </nav>
     </header>
@@ -29,53 +33,58 @@
         </section>
         <section class="aboutMe">
             <h2 class="aboutMeTitle">About me</h2>
-            <h3 class="aboutMeText">I'm Flynn, an aspiring programmer who is planning on studying in computing and
-                working on my programming skills. I wish to work on many exciting and innovative projects
-                throughout my time as a programmer. In my free time I enjoy working on my home lab (I
-                somehow manage to break more things than I actually fix) and playing computer games.</h3>
+            <p class="aboutMeText">I'm Flynn, an aspiring programmer who is currently completing a Cert IV in IT at TAFE. I am currently working as a barista in a cosy cafe. I plan to work on many exciting projects in future jobs. In my free time I enjoy making and drinking coffee, as well as working on my homelab.</p>
         </section>
-        <section class="myProjects">
-            <h2 class="myProjectsTitle">My Projects</h2>
-            <div class="myProjectsContent">
-                <div class="myProjectBlock">
-                    <h2 class="projectTitle">Fegal Government Website</h2>
-                    <h3 class="projectDescription">Please note that this is a website for a fictional country on a Minecraft server. I
-                        made it to inform people of various minecraft projects I am working on, as well as services my country offers.</h3>
-                    <div class="projectLinks">
-                        <a class="projectRepoLink" href="https://github.com/SteppedFerret56/Fegal-Web">
+        <section class="contentCards">
+            <h2 class="containerTitle">My Projects</h2>
+            <div class="contentContainer">
+                <div class="contentBlock">
+                    <h2 class="contentTitle">Fegal Government Website</h2>
+                    <p class="contentDescription">Please note that this is a website for a fictional country on a Minecraft server. I made it to inform people of various minecraft projects I am working on, as well as services my country offers.</p>
+                    <div class="contentLinks">
+                        <a class="contentRepoLink" href="https://github.com/SteppedFerret56/Fegal-Web">
                             <img src="src/Icons/github-logo.svg">
                         </a>
-                        <a class="projectLink" href="https://fegal.aircs.racing/">
+                        <a class="contentLink" href="https://fegal.aircs.racing/">
                         <span class="material-symbols-outlined">
                             public
                         </span>
                         </a>
                     </div>
                 </div>
-                <div class="myProjectBlock">
-                    <h2 class="projectTitle">AviaNav</h2>
-                    <h3 class="projectDescription">AviaNav is still a very early days project. I began work on it as I found it annoying
-                        that I had to use several different websites to access all sorts of data for flight simulation. This data includes;
-                        weather radar, aircraft radar, airport weather information, and flight planning. While I still have not implemented
-                        a majority of these features my end goal is to have all of them.</h3>
-                    <div class="projectLinks">
-                        <a class="projectRepoLink" href="https://github.com/SteppedFerret56/AviaNav">
+                <div class="contentBlock">
+                    <h2 class="contentTitle">AviaNav</h2>
+                    <p class="contentDescription">AviaNav is still a very early days project. I began work on it as I found it annoying that I had to use several different websites to access all sorts of data for flight simulation. This data includes; weather radar, aircraft radar, airport weather information, and flight planning. While I still have not implemented a majority of these features my end goal is to have all of them.</p>
+                    <div class="contentLinks">
+                        <a class="contentRepoLink" href="https://github.com/SteppedFerret56/AviaNav">
                             <img src="src/Icons/github-logo.svg">
                         </a>
-                        <a class="projectLink" href="https://avianav.flynnberta.com/">
+                        <a class="contentLink" href="https://avianav.flynnberta.com/">
                         <span class="material-symbols-outlined">
                             public
                         </span>
                         </a>
                     </div>
                 </div>
-                <div class="myProjectBlock">
-                    <h2 class="projectTitle">Harmonic Ferret</h2>
-                    <h3 class="projectDescription">Harmonic Ferret is something I want to make, and have already created a GitHub repo for,
-                        but have not started yet. Therefor no link has been provided.</h3>
+                <div class="contentBlock">
+                    <h2 class="contentTitle">Harmonic Ferret</h2>
+                    <p class="contentDescription">Harmonic Ferret is something I want to make, and have already created a GitHub repo for but have not started yet. Therefor no link has been provided.</p>
                 </div>
             </div>
         </section>
+        <section class="quoteSection">
+            <div class="quoteContainer">
+                <script src="https://www.brainyquote.com/link/quotebr.js"></script>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>© 2026 Flynn Berta</p>
+        <p>
+            <a href="/mini-projects/index.html">Mini Projects</a>
+            •
+            <a href="https://github.com/SteppedFerret56" target="_blank">GitHub</a>
+        </p>
+    </footer>
 </body>
 </html>

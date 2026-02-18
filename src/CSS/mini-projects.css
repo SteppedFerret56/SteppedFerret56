@@ -24,7 +24,6 @@
 .parallaxText {
     color: white;
     font-size: 10vh;
-    font-family: GidoleFont;
     text-align: center;
 }
 
@@ -37,13 +36,11 @@
 }
 
 .aboutMeTitle {
-    font-family: GidoleFont;
     font-size: 9vh;
     color: white;
 }
 
 .aboutMeText {
-    font-family: GidoleFont;
     font-size: 4vh;
     color: white;
     text-align: center;

@@ -1,12 +1,8 @@
-@font-face {
-    font-family: 'GidoleFont';
-    src: url(/src/GidoleFont/Gidole-Regular.ttf) format('truetype');
-}
-
 body {
     margin: 0;
     padding: 0;
     background-color: #333333;
+    font-family: Gidole, sans-serif;
 }
 
 a {
@@ -22,7 +18,6 @@ a {
     background-color: #2a2c2b;
     color: white;
     padding: 10px 20px;
-    font-family: GidoleFont, sans-serif;
 }
 
 .menuBarLogo {
@@ -56,7 +51,6 @@ nav a {
     padding: 10px 15px 10px 30px;
     text-decoration: none;
     font-size: 5vh;
-    font-family: GidoleFont, sans-serif;
     color: white;
     display: block;
     transition: 0.3s;
@@ -80,4 +74,118 @@ nav .sideNavCloseBtn {
 @media screen and (max-height: 450px) {
     nav {padding-top: 15px;}
     nav a {font-size: 18px;}
+}
+
+.contentCards {
+    background: #2a2c2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerTitle {
+    font-size: 9vh;
+    background: linear-gradient(to right, #f0c755, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contentBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vw;
+    padding: 2vw;
+    background: white;
+    border-radius: 10px;
+}
+
+.contentTitle {
+    font-size: 6vh;
+    background: linear-gradient(to right, #04bfbf, #07adb0, #099aa1, #0a8992, #0a7784, #096676, #075668, #05465a, #03374d, #012840);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.contentDescription {
+    font-size: 4vh;
+    color: black;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.contentLinks {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contentLink {
+    color: black;
+    margin: 1vw;
+}
+
+.contentLink img, .contentRepoLink img {
+    width: 50px;
+    height: 50px;
+}
+
+.quoteSection {
+    background: #2a2c2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quoteContainer {
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.quoteContainer a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+b {
+    font-size: 9vh;
+    background: linear-gradient(90deg, #ff33ff, #00ccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+footer {
+    padding: 2rem 0;
+    background: black;
+    color: #eee;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
